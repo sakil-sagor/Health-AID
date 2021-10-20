@@ -78,7 +78,7 @@ const Navbar = ({ fixed }) => {
                                         <NavLink className="manu-item p-2 text-lg font-bold hover:text-blue-500" to="/aboutUs"> About Us  </NavLink >
                                     </div>
                                     {/* user img login logout  */}
-                                    <div className="profile-holder">
+                                    <div className="profile-holder py-3">
                                         {
                                             user.email || user.displayName ?
                                                 <img style={{ cursor: 'pointer' }} onClick={toggleText} className="w-12 rounded-full" src={loginPhoto()} alt="" />
