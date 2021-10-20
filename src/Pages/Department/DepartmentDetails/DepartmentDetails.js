@@ -24,13 +24,13 @@ const DepartmentDetails = () => {
                 ></PageTitle>
             </div>
             {/* deparment detail main body  */}
-            <div className="container full-width-all m-auto">
+            <div className="container full-width-all m-auto px-2">
                 <div className="bg-blue-100 py-12 px-8 rounded-3xl mt-16">
-                    <div className="grid grid-cols-12 gap-x-8 ">
-                        <div className="col-span-5">
-                            <img className="rounded-xl" src={docResult?.img} alt="" />
+                    <div className="grid grid-cols-1 sm:grid-cols-12 gap-x-8 ">
+                        <div className="sm:col-span-5">
+                            <img className="rounded-xl w-full" src={docResult?.img} alt="" />
                         </div>
-                        <div className="col-span-7">
+                        <div className="sm:col-span-7 pt-6 sm:pt-0">
                             <h1 className="text-2xl font-semibold">{docResult?.name}</h1>
                             <p className="text-gray-500 pt-6">{docResult?.content}</p>
                         </div>
@@ -41,8 +41,8 @@ const DepartmentDetails = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="container m-auto full-width-all grid  gap-x-12	 grid-cols-12  justify-between py-8">
-                        <div className="col-span-8">
+                    <div className="container m-auto full-width-all grid  gap-x-12 grid-cols-1	 md:grid-cols-12  justify-between py-8">
+                        <div className="md:col-span-8">
                             <h1 className="text-4xl font-bold text-gray-700 py-8">Overview</h1>
                             <p className="text-gray-900 font-semibold  text-md tracking-wide">{docResult?.content}A {docResult?.name} is specialized with training in diagnosing, treating, and managing disorders of the brain and nervous system including, but not limited to, Alzheimer’s disease, amyotrophic lateral sclerosis (ALS), concussion, epilepsy, migraine, multiple sclerosis, Parkinson’s disease, and stroke.</p>
                             <br />
@@ -79,7 +79,7 @@ const DepartmentDetails = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-span-4 ">
+                        <div className="md:col-span-4 ">
                             <div className="bg-blue-200 rounded-lg mt-12 p-6">
                                 <i class="fas fa-headset text-pink-700 text-6xl"></i>
                                 <h1 className="text-2xl font-bold text-blue-500 py-8">Emergency Cases</h1>

@@ -30,16 +30,15 @@ const AboutUs = () => {
                     </div>
                     <div>
                         {/* About page section  */}
-                        <div className="shadow-xl  bg-white grid grid-cols-12 gap-4  rounded-lg">
-                            <div className="pb-24 pt-16 p-4 col-span-7 ">
+                        <div className="shadow-xl  bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4  rounded-lg">
+                            <div className="pb-24 pt-16 p-4 lg:col-span-7 ">
                                 <h1 className="text-4xl mb-8 font-semibold text-blue-500 ">A Power for Good Health</h1>
                                 <p className="text-justify   text-gray-600 ">We believe that free Health Care, more than anything, has the power to break through boundaries and transform lives.
                                     <br />
                                     <br />
                                     Alison is one of the world’s largest free learning platforms for education and skills training. It is a for-profit social enterprise dedicated to making it possible for anyone, to study anything, anywhere, at any time, for free online, at any subject level. Through our mission we are a catalyst for positive social change, creating opportunity, prosperity, and equality for everyone.</p>
                             </div>
-                            <div className="col-span-1"></div>
-                            <div className="col-span-4 ">
+                            <div className=" lg:col-span-5">
                                 <img className="w-full rounded-bl-3xl" src={d3} alt="" />
                             </div>
                         </div>

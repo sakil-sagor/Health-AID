@@ -27,10 +27,10 @@ const DoctorDetails = () => {
             </div>
             {/* single doctor detail area main body  */}
             <div>
-                <div className="container m-auto full-width-all grid  gap-x-12	 grid-cols-12  justify-between py-16 px-2">
-                    <div className="col-span-12 md:col-span-5 lg:col-span-4">
+                <div className="container m-auto full-width-all grid  gap-x-12	 grid-cols-1 md:grid-cols-12  justify-between py-16 px-2">
+                    <div className=" md:col-span-5 lg:col-span-4">
                         <div className="text-left bg-blue-200 rounded-lg">
-                            <div className="">
+                            <div className="w-full">
                                 <img className=" w-full" src={docResult?.img} alt="" />
                             </div>
                             <div className="p-3 text-center ">
@@ -67,7 +67,7 @@ const DoctorDetails = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-12 md:col-span-7 lg:col-span-8">
+                    <div className=" md:col-span-7 lg:col-span-8">
                         <h1 className="text-4xl font-bold text-gray-700 py-8">Biography</h1>
                         <p className="text-gray-500 leading-8 text-md tracking-wide">{docResult?.description}</p>
                         <br />
