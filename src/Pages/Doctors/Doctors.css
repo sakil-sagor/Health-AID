@@ -1,0 +1,34 @@
+.doctors-page-banner{
+  background-image: url(../../images/doctors-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tab-list {
+  list-style: none;
+  font-size: 16px;
+  padding: 10px 7px;
+}
+.tabs {
+  font-weight: 600;
+  padding:2px 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+.tabs:last-child {
+  border-bottom: none;
+}
+.active-tabs {
+  color:rgba(59, 130, 246);
+}
+.tab-content {
+    display: none;
+    padding: 10px;
+}
+
+.tab-active-content {
+    display: block;
+}
