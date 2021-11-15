@@ -70,12 +70,12 @@ const Navbar = ({ fixed }) => {
                                     <div className='nav-item'>
                                         <NavLink className="manu-item p-2 text-lg font-bold hover:text-blue-500" to="/appointment">Appointment</NavLink >
                                     </div>
-                                    <div className='nav-item'>
+                                    {/* <div className='nav-item'>
                                         <NavLink className="manu-item p-2 text-lg font-bold hover:text-blue-500" to="/contactUs"> Contact Us  </NavLink >
                                     </div>
                                     <div className='nav-item'>
                                         <NavLink className="manu-item p-2 text-lg font-bold hover:text-blue-500" to="/aboutUs"> About Us  </NavLink >
-                                    </div>
+                                    </div> */}
                                     {/* user img login log-out */}
                                     <div className="profile-holder py-3 ml-4">
                                         {
