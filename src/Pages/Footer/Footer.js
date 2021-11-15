@@ -43,7 +43,7 @@ const Footer = () => {
                             <li className="cursor-pointer hover:underline"><NavLink to="/login">Login</NavLink></li>
                             <li className="cursor-pointer hover:underline"><NavLink to="/register">Register</NavLink></li>
                             <li className="cursor-pointer hover:underline"><NavLink to="/aboutUs"> About Us</NavLink></li>
-                            <li className="cursor-pointer hover:underline"><NavLink to="/doctors"></NavLink></li>
+                            <li className="cursor-pointer hover:underline"><NavLink to="/contactUs"> Contact Us</NavLink></li>
                         </ul >
                     </div >
                 </div>
