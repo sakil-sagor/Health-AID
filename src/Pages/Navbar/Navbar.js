@@ -10,7 +10,7 @@ import './Navbar.css'
 // navbar area for all 
 
 const Navbar = ({ fixed }) => {
-    const { user, logOut, handelLogout } = useAuth();
+    const { user } = useAuth();
     const [menuOpen, setMenuOpen] = React.useState(false);
     const barsIcon = <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
     const [profileState, setProfileState] = useState('Off');
